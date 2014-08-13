@@ -9,6 +9,43 @@
 \maketitle
 
 \section{Busca Sequencial}
+	\begin{enumerate}
+	\item Complexidade média(Tempo de demora para resposta): n/2
+	\item O(n)
+	\item Métodos para otimização
+		\begin{itemize}
+		\item Sentinela: Consiste em adicionar um elemento de valor x no final do vetor.
+		\end{itemize}		 
+	\item Alternativa: Lista encadeada
+	\item Aumento de eficiência
+		\begin{itemize}
+		\item Método mover para frente: Sempre que uma pesquisa obter êxito, o registro recuperado é colocado no ínicio da lista. \textbf{Desvantagem:} Qualquer informação fica privelegiada
+		\item Método da transposição: Um registro recuperado com sucesso é trocado imediatamento com o elemento anterior (swap é O(1), não importando a quantidade de elementos). \textbf{Desvantagem:} Cancelamento da otimização, (swap alternados entre mesmos elementos)		
+		\end{itemize}
+	\item Tabela Ordenada
+		\begin{itemize}
+		\item Complexidade: O(n/2). \textbf{Pior caso:} Complexidade: O(n)
+		\item Dificuldade: Manter tabela ordenada e a ordenação em si
+		\end{itemize}
+	\item Tabela indexada
+		\begin{itemize}
+		\item Utilização de tabela auxiliar como tabela de índices
+		\item Cada elemento na tabela de índices contém uma chave (kindex) e um indicador do regostro no arquivo que corresponde a kindex
+		\end{itemize}
+	\item Vantagens e desvantagens na busca sequêncial
+		\begin{itemize}
+		\item Vantagens: Os ítens poderão ser examinados sem serem acessados, o tempo de busca diminui consideravelmente
+		\item Desvantagens: Tabela tenha que estar ordenada, demanda mais espaço.
+		\end{itemize}
+	\item Remoção
+		\begin{itemize}
+		\item Remova-se o elemento e rearranja-se a tabela
+		\item Indicar que o local está vazio, e futuramente é inserido outro elemento no índice
+		\end{itemize}
+	\item Inserção
+		\begin{itemize}
+		\item Se houver espaço vago, rearranjam-se os elementos localmente, caso não haja espaço, toda a tabela deve ser rearranjada
+		\end{itemize}
+	\end{enumerate}
 
-	
 \end{document}
