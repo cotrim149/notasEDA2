@@ -47,5 +47,41 @@
 		\item Se houver espaço vago, rearranjam-se os elementos localmente, caso não haja espaço, toda a tabela deve ser rearranjada
 		\end{itemize}
 	\end{enumerate}
+\section{Busca Binária}
+	\begin{itemize}
+	\item O(log n); Cada comparação reduz o número de possíveis candidatos por um fator de 2.
+	\item Pode ser usada como organização de tabela sequencial indexada
+	\item Desvantagem: Precisa de índices, não funciona em uma lista encadeada ou duplamente encadeada
+	\end{itemize}
 
+\section{Busca por interpolação}
+	\begin{itemize}
+	\item As chaves precisam estar uniformemente distribuidas
+	\item meio = inf + (sup - inf) * ( (x-A[inf])/(A[sup]-A[inf]) )
+	
+	\item O(log(log(n))) se as chaves estiverem uniformemente distribuida
+	\item Se chaves não estiverem uniformemente distribuidas, a busca por interpolação pode ser tão ruim quanto uma busca sequencial
+	\end{itemize}
+
+\section{Busca em árvore}
+	\begin{enumerate}
+	\item pré-ordem (sempre a esquerda)
+	\item in-ordem (sempra em baixo)
+	\item pós-ordem (sempra a direita)
+	\end{enumerate}
+
+\section{Selection Sort}
+	\begin{itemize}
+	\item Chamado de algoritmo natural
+	\item Se baseia em passar o menor valor do vetor para a primeira posição
+	\item complexidade média = (n-1)*(n/2)
+	\item O(n2)	
+	\end{itemize}
+\section{Insertion Sort}
+	\begin{itemize}
+	\item Chamado de algoritmo natural
+	\item Não existe swap para fora do vetor, sempre acrescente o "procurado" entre os valores
+	\item complexidade média = (n)*(n/4)
+	\item O(n2)
+	\end{itemize}
 \end{document}
