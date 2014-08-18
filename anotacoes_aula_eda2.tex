@@ -84,4 +84,37 @@
 	\item complexidade média = (n)*(n/4)
 	\item O(n2)
 	\end{itemize}
+\section{Bubble sort}
+	\begin{itemize}
+	\item O(n2)
+	\end{itemize}
+	
+\section{Shell sort}
+
+	\begin{itemize}
+	\item O(n2)	
+	\item O mais eficiente algoritmo de ordenação dentre os de complexidade quadrática
+	\item "Gaps" de n/2, sempre fazer o arrendondamento para baixo.
+	\item Vizinho é igual a um "gap" de distância
+	\item Refinamento do insertion Sort
+	\item subvetores dentro do vetor(ideia!), subvetor com tamanho n/"gap"
+	\item (colocar imagem!)
+	\end{itemize}
+\section{Bucket Sort}
+	\begin{itemize}
+	\item "Dividir e conquistar"
+	\item Divisão em "baldes" por faixas de valores,
+	\item pode ser usado qualquer algortimo dentro de cada balde
+	\end{itemize}
+	
+\section{Quick Sort}
+	\begin{itemize}
+	\item "Dividir e conquistar"
+	\item Escolhe-se um valor pivô e move-se todos os valores menores para a esquerda e os maiores para a direita
+	\item Ordena-se recursivamente os valores menores e maiores
+	\item Algoritmo instável: Não garante que elementos iguais não invertam, não se preocupa com a ordem dos elementos
+	\item O(log(n))
+	\item Desvantagem: A escolha de um mau pivô seguidamente podem tornar o algoritmo O(n2)
+	\item Encontrar o mediano é O(n), o que resulta O(n log(n) ) 
+	\end{itemize}
 \end{document}
