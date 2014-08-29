@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.11)  19 AUG 2014 00:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.11)  29 AUG 2014 09:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,28 +399,28 @@ Overfull \hbox (22.4902pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-[4 <./imagens/shell-sort.png>] [5] (./anotacoes_aula_eda2.aux) ) 
+[4 <./imagens/shell-sort.png>] [5] [6] (./anotacoes_aula_eda2.aux) ) 
 Here is how much of TeX's memory you used:
- 1729 strings out of 494985
- 23749 string characters out of 6180356
- 79944 words of memory out of 5000000
- 4934 multiletter control sequences out of 15000+600000
- 7588 words of font info for 27 fonts, out of 8000000 for 9000
+ 1732 strings out of 494985
+ 23784 string characters out of 6180356
+ 79953 words of memory out of 5000000
+ 4937 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  37i,6n,23p,312b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb>
-Output written on anotacoes_aula_eda2.pdf (5 pages, 107665 bytes).
+</usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on anotacoes_aula_eda2.pdf (6 pages, 112675 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
