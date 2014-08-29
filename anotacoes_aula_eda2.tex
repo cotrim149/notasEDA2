@@ -161,4 +161,39 @@
 	\item Algoritmo é recursivo, mas pode ser iterativo, existem mudanças de funcionamento.
 	\item O(n log(n))
 	\end{itemize}
+
+\section{Heap Sort}
+	\begin{itemize}
+	\item Prioriza a busca de valores
+	\item o Pai sempre é maior ou igual que seus filhos(se maior na raiz), ou, o pai sempre é menor que seus filhos(se menor na raiz)
+	\item Último nível sempre tem um buraco a direita. Isso garante que não haverá outros elementos dentro do vetor.
+	\item Vetor nomeado de 1 a n, não de 0 a n-1
+	\item Para encontrar o pai i/2
+	\item Filhos a esquerda 2i
+	\item Filhos a direita 2i + 1		
+	\end{itemize}
+\subsection{Inserção}
+	\begin{enumerate}
+	\item O(log(n))
+	\item Para se fazer um novo nível, sempre tenha que ter o nível imediatamente anterior completo.	
+	\end{enumerate}
+\subsection{Heapify}
+	\begin{itemize}
+	\item Manipula a estrutura para ela se tornar um heap
+	\item Apartir de uma posição vai consertando para baixo
+	\end{itemize}
+\subsection{Build a Heap}
+	\begin{itemize}
+	\item Transforma qualquer vetor em Heap
+	\item Metade dos valores não são utilizados em Heapfy, pois são folhas.
+	\item Sempre faça Heapfy no pai das folhas.
+	\item Heapdy resolve tudo aqui!
+	\item Complexidade: somatorio : (n/2 * 0) + (n/4 * 1) + (n/8 * 3) + ...
+	\end{itemize}
+\subsection{HeapSort}
+	\begin{itemize}
+	\item Feito localmente, não é recursivo
+	\item 
+	\end{itemize}
+\subsection{Extra-Max}
 \end{document}
